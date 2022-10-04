@@ -45,7 +45,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     margin-bottom: auto;
     width:55%;
   }
-  #largeImage,.gallery-item:hover {
+  #largeImage:hover , .gallery-item:hover {
     -webkit-transform:scale(1.9); 
     transform:scale(1.9);
   }
