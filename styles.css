@@ -31,7 +31,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     margin-right: auto;
     width: 50%;
   }
-  .gallery-container {
+  .gallery-item {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
@@ -43,7 +43,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     margin-bottom: auto;
     width:55%;
   }
-  #largeImage:hover {
+  #largeImage,.gallery-item:hover {
     -webkit-transform:scale(1.9); 
     transform:scale(1.9);
   }
